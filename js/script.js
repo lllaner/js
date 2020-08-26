@@ -1,21 +1,23 @@
 "use strict";
 
-const numberOfFilms = +prompt('how meny films do you have whatched?','');
+let num = 51;
 
-const personalmovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false
-};
+if (1 == 1) {
+  //console.log
+} else if (1 == 2) {
+  //console.log
+} else {
+  //console.log
+}
 
-const a = prompt('The last film',''),
-      b = +prompt('rate of the film',''),
-      c = prompt('The last film',''),
-      d = +prompt('rate of the film','');
-
-personalmovieDB.movies[a] = b;
-personalmovieDB.movies[c] = d;
-
-console.log(personalmovieDB);
+switch (num) {
+  case 49:
+    console.log('не верно');
+    break;
+  case 50:
+    console.log('true');
+    break;
+  default:
+    console.log('NaN');
+    break;
+  }
